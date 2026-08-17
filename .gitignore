@@ -1,0 +1,46 @@
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Large local data extracts
+EXTR_*.csv
+*.parquet
+*.feather
+*.pkl
+*.pickle
+*.joblib
+*.model
+
+# Generated outputs
+ml_results.txt
+*.log
+outputs/
+reports/generated/
+figures/generated/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/tasks.json
