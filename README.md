@@ -1,5 +1,6 @@
 # King County House Price Prediction
 
+# Before everything starts files of this codes are not in this repo because uploading limitations.# Reminder
 Machine-learning pipelines for predicting King County residential sale prices from parcel, residential building, and real property sales extracts.
 
 The project compares a baseline model with a v3 pipeline that adds domain-driven feature engineering and hyperparameter tuning. It is structured for portfolio review, reproducible local runs, and a clean GitHub upload.
